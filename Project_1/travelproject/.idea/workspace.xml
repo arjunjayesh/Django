@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/travelapp/urls.py" afterDir="false" />
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Return an HTTP Response - HelloWorld">
+      <change afterPath="$PROJECT_DIR$/travelapp/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -41,6 +42,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/arjun/PycharmProjects/Django/Project_1/travelproject",
@@ -56,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660971051211</updated>
     </task>
+    <task id="LOCAL-00001" summary="Return an HTTP Response - HelloWorld">
+      <created>1660973238644</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660973238644</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -68,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Return an HTTP Response - HelloWorld" />
+    <option name="LAST_COMMIT_MESSAGE" value="Return an HTTP Response - HelloWorld" />
   </component>
 </project>

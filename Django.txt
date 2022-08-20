@@ -39,6 +39,8 @@ urlpatterns = [
 
 Create a new file in application folder and name it 'urls.py'
 
+App -> urls.py
+
 from django.urls import path, include
 from . import views
 
@@ -50,12 +52,19 @@ urlpatterns = [
 
 Create a new function in 'views.py
 
+Return an HTML Response
+
 from django.http import HttpResponse
 from django.shortcuts import render
 
 def demo(request):
     return HttpResponse("HelloWorld")
 
+
+Returning an HTML Page -> views
+
+def demo(request):
+    return render(request,"index.html")
 
 
 Add name of app in Settings.py->INSTALLED_APPS
@@ -71,3 +80,37 @@ INSTALLED_APPS = [
 ]
 
 
+'Settings.py' ->
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+
+
+Navigating from one page to another
+
+App -> urls.py
+
+urlpatterns = [
+    path('',views.demo, name='demo'),
+    path('about/',views.about,name='about'),
+]
+
+App -> views.py
+
+def about(request):
+    return render(request,'about.html')
+
+templates -> create a new html page 'about.html'
