@@ -1,9 +1,8 @@
-Django works on MVT Architecture
-
 # Virtual Enviornment install 
 
 -> pip install virtualenvwrapper-win
 -> mkvirtualenv inmakes ('inmakes' = virtual enviornment name)
+-> workon inmakes (open virtual enviornment)
 -> pip install django
 
 # Create Project
@@ -14,7 +13,61 @@ Django works on MVT Architecture
 # Create App
 
 -> python manage.py startapp travelapp ('travelapp' = project name)
+
+# Run Server
+
 -> python manage.py runserver
 
 --------------------------------------------------------------------------------------------
+
+Django works on MVT Architecture
+
+Model - Table Name
+View - Code
+Template - HTML Code
+
+# Project Files
+
+Project -> urls.py ->
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('',include('travelapp.urls'))
+]
+
+
+
+Create a new file in application folder and name it 'urls.py'
+
+from django.urls import path, include
+from . import views
+
+urlpatterns = [
+    path('',views.demo, name='demo'),
+]
+
+
+
+Create a new function in 'views.py
+
+from django.http import HttpResponse
+from django.shortcuts import render
+
+def demo(request):
+    return HttpResponse("HelloWorld")
+
+
+
+Add name of app in Settings.py->INSTALLED_APPS
+
+INSTALLED_APPS = [
+    'travelapp',
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+]
+
 
