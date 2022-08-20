@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Create SQL database and link to models.py">
-      <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/pics/3.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660988494031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Create SQL database and link to models.py">
+      <created>1660990003967</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1660990003967</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
