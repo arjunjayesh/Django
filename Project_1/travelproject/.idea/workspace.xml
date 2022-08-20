@@ -4,141 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Passing Value from one Page to another">
-      <change afterPath="$PROJECT_DIR$/static/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/about_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/around.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/beach.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/boat.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/camera.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destination_9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/destinations.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/elements.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/footer_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/home_slider.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/island.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/latest_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/latest_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/latest_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/mountain.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/news_6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/sign.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/suitcase.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/team_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/team_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/team_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/team_4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/testimonials.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/travello.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/trekking.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/wallet.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/images/why_3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/destinations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/elements.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/news.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/Isotope/isotope.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/OwlCarousel2-2.2.1/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/easing/easing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/greensock/ScrollToPlugin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/greensock/TimelineMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/greensock/TweenMax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/greensock/animation.gsap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/parallax-js-master/parallax.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/progressbar/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/scrollTo/jquery.scrollTo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/plugins/scrollmagic/ScrollMagic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/about.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/about_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/bootstrap4/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/bootstrap4/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/contact.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/contact_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/destinations.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/destinations_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/elements.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/elements_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/main_styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/news.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/news_responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/styles/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travelapp/templates/home.html" afterDir="false" />
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Setting up static website and linking contents">
       <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/templates/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660975657082</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Setting up static website and linking contents">
+      <created>1660980230652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660980230652</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +119,7 @@
     <MESSAGE value="Multiple Views - Navigating to other page" />
     <MESSAGE value="Passing Value to HTML using dictionary and jinja format" />
     <MESSAGE value="Passing Value from one Page to another" />
-    <option name="LAST_COMMIT_MESSAGE" value="Passing Value from one Page to another" />
+    <MESSAGE value="Setting up static website and linking contents" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setting up static website and linking contents" />
   </component>
 </project>

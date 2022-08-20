@@ -213,3 +213,30 @@ Use inside the double quotes
 
 Example: <link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
 
+
+--------------------------------------------------------------------------------------------
+
+
+Adding Images from a Database
+
+
+
+Create Database 
+
+Project -> models.py
+
+class Place(models.Model):
+    name = models.CharField(max_length=250)
+    image=models.ImageField(upload_to='pics')
+    description=models.TextField()
+
+Always run the below two commands when any changes are made in models.py
+
+python manage.py makemigrations
+python manage.py migrate
+
+
+
+
+
+
