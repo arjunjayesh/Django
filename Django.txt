@@ -236,6 +236,22 @@ python manage.py makemigrations
 python manage.py migrate
 
 
+Project ->settings.py -> DATABASES
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'travelproject',
+        'USER': 'root',
+        'PASSWORD': '',
+    }
+}
+
+Always run the below two commands when any changes are made in models.py
+
+python manage.py makemigrations
+python manage.py migrate
+
 
 
 
