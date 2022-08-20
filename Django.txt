@@ -99,6 +99,10 @@ TEMPLATES = [
 ]
 
 
+
+--------------------------------------------------------------------------------------------
+
+
 Navigating from one page to another
 
 App -> urls.py
@@ -114,3 +118,24 @@ def about(request):
     return render(request,'about.html')
 
 templates -> create a new html page 'about.html'
+
+
+--------------------------------------------------------------------------------------------
+
+Passing Value to HTML
+
+views.py ->
+
+def demo(request):
+    name="India"
+    return render(request,"index.html",{'obj':name})
+
+index.html ->
+
+<h1>Hello {{obj}}</h1>
+
+--------------------------------------------------------------------------------------------
+
+
+
+

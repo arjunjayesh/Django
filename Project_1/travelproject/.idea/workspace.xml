@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Return an HTTP Response - HelloWorld">
-      <change afterPath="$PROJECT_DIR$/travelapp/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Multiple Views - Navigating to other page">
       <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660973238644</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Multiple Views - Navigating to other page">
+      <created>1660974346039</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660974346039</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +84,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Return an HTTP Response - HelloWorld" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return an HTTP Response - HelloWorld" />
+    <MESSAGE value="Multiple Views - Navigating to other page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Multiple Views - Navigating to other page" />
   </component>
 </project>
