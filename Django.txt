@@ -1,0 +1,20 @@
+Django works on MVT Architecture
+
+# Virtual Enviornment install 
+
+-> pip install virtualenvwrapper-win
+-> mkvirtualenv inmakes ('inmakes' = virtual enviornment name)
+-> pip install django
+
+# Create Project
+
+-> django-admin startproject travelproject ('travelproject' = project name)
+-> cd travelproject
+
+# Create App
+
+-> python manage.py startapp travelapp ('travelapp' = project name)
+-> python manage.py runserver
+
+--------------------------------------------------------------------------------------------
+
