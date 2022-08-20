@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Multiple Views - Navigating to other page">
-      <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Passing Value to HTML using dictionary and jinja format">
+      <change afterPath="$PROJECT_DIR$/travelapp/templates/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660974346039</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Passing Value to HTML using dictionary and jinja format">
+      <created>1660974795690</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660974795690</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -85,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Return an HTTP Response - HelloWorld" />
     <MESSAGE value="Multiple Views - Navigating to other page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple Views - Navigating to other page" />
+    <MESSAGE value="Passing Value to HTML using dictionary and jinja format" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passing Value to HTML using dictionary and jinja format" />
   </component>
 </project>
