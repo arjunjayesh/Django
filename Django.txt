@@ -136,6 +136,80 @@ index.html ->
 
 --------------------------------------------------------------------------------------------
 
+Passing Value from one page to another
+
+index.html ->
+
+<form action="add/" method="get">
+    <input type="text" name="num1" placeholder="Number 1">
+    <input type="text" name="num2" placeholder="Number 2">
+    <input type="submit">
+</form>
+
+urls.py ->
+
+urlpatterns = [
+    path('',views.demo, name='demo'),
+    path('about/',views.about,name='about'),
+    path('add/',views.add,name='add'),
+]
 
 
+views.py ->
+
+def add(request):
+    x = int(request.GET['num1'])
+    y = int(request.GET['num2'])
+    res=x+y
+    return render(request,"result.html",{'result':res})
+
+result.html ->
+
+<h1>Result: {{result}}</h1>
+
+--------------------------------------------------------------------------------------------
+
+Static Websites
+
+Move all resources from template to a new directory 'static' in the project folder
+Move Index page from template to 'templates' directory
+
+settings.py -> STATIC_URL
+
+STATIC_URL = 'static/'
+
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
+MEDIA_URL = '/media'
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
+
+Project -> urls.py -> urlpatterns
+
+from django.conf.urls.static import static
+
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+
+index.html ->
+
+
+load static at the beginning of the page
+
+{% load static %}
+<!DOCTYPE html>
+
+
+Make changes to all plugins, styles and images to load static
+
+Opener: 
+{% static '
+
+Closing: 
+' %}
+
+Use inside the double quotes
+
+Example: <link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
 
