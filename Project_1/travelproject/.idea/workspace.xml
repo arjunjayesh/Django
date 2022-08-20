@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Configure Django Admin Panel">
-      <change afterPath="$PROJECT_DIR$/travelapp/migrations/0002_team.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pics/1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pics/2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/pics/3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Dynamic Data - Team Details added using ORM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660991103537</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Dynamic Data - Team Details added using ORM">
+      <created>1660995292867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1660995292867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +146,7 @@
     <MESSAGE value="Setting up static website and linking contents" />
     <MESSAGE value="Create SQL database and link to models.py" />
     <MESSAGE value="Configure Django Admin Panel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configure Django Admin Panel" />
+    <MESSAGE value="Dynamic Data - Team Details added using ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dynamic Data - Team Details added using ORM" />
   </component>
 </project>
