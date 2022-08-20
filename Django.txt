@@ -252,7 +252,57 @@ Always run the below two commands when any changes are made in models.py
 python manage.py makemigrations
 python manage.py migrate
 
+--------------------------------------------------------------------------------------------
 
 
+Django Admin Panel
 
+
+Create Superuser for Admin panel
+
+-> python manage.py createsuperuser
+
+App -> admin.py
+
+from . models import Place
+admin.site.register(Place)
+
+--------------------------------------------------------------------------------------------
+
+Dynamic Data passing in HTML (ORM)
+
+
+views.py ->
+
+from . models import Place
+
+def demo(request):
+    obj=Place.objects.all()
+    return render(request,"index.html",{'result':obj})
+
+index.html ->
+
+use for loop
+add .url to image
+
+				
+				<!-- Why item -->
+				{% for i in result %}
+				<div class="col-lg-4 why_col">
+					<div class="why_item">
+						<div class="why_image">
+							<img src="{{i.image.url}}" alt="">
+							<div class="why_icon d-flex flex-column align-items-center justify-content-center">
+								<img src="{% static 'images/why_1.svg' %}" alt="">
+							</div>
+						</div>
+						<div class="why_content text-center">
+							<div class="why_title">{{i.name}}</div>
+							<div class="why_text">
+								<p>{{i.description}}</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				{% endfor %}
 

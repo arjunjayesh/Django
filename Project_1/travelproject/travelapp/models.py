@@ -9,3 +9,12 @@ class Place(models.Model):
     # To show the name in the Database
     def __str__(self):
         return self.name
+
+class Team(models.Model):
+    name = models.CharField(max_length=250)
+    image = models.ImageField(upload_to='pics')
+    description = models.TextField()
+
+    # To show the name in the Database
+    def __str__(self):
+        return self.name
