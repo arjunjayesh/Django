@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Dynamic Data - Team Details added using ORM" />
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Dynamic Data - Team Details added using ORM">
+      <change afterPath="$PROJECT_DIR$/credentials/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/credentials/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travelapp/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/travelproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,16 +45,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arjun/PycharmProjects/Django/Project_1/travelproject/travelapp/templates",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arjun/PycharmProjects/Django/Project_1/travelproject/travelapp/templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arjun\PycharmProjects\Django\Project_1\travelproject\travelapp\templates" />
@@ -123,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660995292867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Dynamic Data - Team Details added using ORM">
+      <created>1660995664813</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1660995664813</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
