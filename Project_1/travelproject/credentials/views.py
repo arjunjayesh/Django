@@ -1,9 +1,8 @@
-from django.contrib import messages
+from django.contrib import messages, auth
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
 
-
-# Create your views here.
+# Create your views here.cls
 def register(request):
     if request.method == 'POST':
         username = request.POST['username']
@@ -15,12 +14,30 @@ def register(request):
 
         if password == conf_password:
             if User.objects.filter(username=username).exists():
-                messages.info(request,"Username Taken")
-                return redirect('register')
-            user = User.objects.create_user(username=username, password=password, first_name=first_name, last_name=last_name, email=email)
+                messages.info(request, "Username Taken")
+                return redirect('credentials:register')
+            elif User.objects.filter(email=email).exists():
+                messages.info(request, "E-Mail Taken")
+                return redirect('credentials:register')
+            user = User.objects.create_user(username=username, password=password, first_name=first_name,
+                                            last_name=last_name, email=email)
             user.save()
-            print("User Created")
+            messages.info(request, "User Created")
+            return redirect('login')
         else:
-            print("Password not Matching")
-
+            messages.info(request, "Password not Matched")
     return render(request, "register.html")
+
+
+def login(request):
+    if request.method == 'POST':
+        username = request.POST['username']
+        password = request.POST['password']
+        user = auth.authenticate(username=username, password=password)
+        if user:
+            auth.login(request, user)
+            return redirect('/')
+        else:
+            messages.info(request, "Invalid Credentials")
+            return redirect('login')
+    return render(request, "login.html")

@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Create new app 'credentials'">
+    <list default="true" id="0058c0f4-3216-4b46-8132-8ab49fe98297" name="Changes" comment="Registration Page and linking to database">
+      <change afterPath="$PROJECT_DIR$/travelapp/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Django.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Django.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credentials/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/credentials/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/credentials/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/credentials/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/travelapp/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/travelapp/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/travelproject/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/travelproject/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661239854652</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Registration Page and linking to database">
+      <created>1661332626789</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1661332626789</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +176,7 @@
     <MESSAGE value="Configure Django Admin Panel" />
     <MESSAGE value="Dynamic Data - Team Details added using ORM" />
     <MESSAGE value="Create new app 'credentials'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create new app 'credentials'" />
+    <MESSAGE value="Registration Page and linking to database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Registration Page and linking to database" />
   </component>
 </project>
